@@ -8,3 +8,9 @@ let stores=
 {store: "Paris, minCust 20, maxCust 38, avgNotarysale 2.3"}
 {store: "Lima, minCust 2, maxCust 16, avgNotarysale 4.6"}
 
+let price = 24.99;
+let discount = 10;
+let discount = $5.00;
+let sales tax = 5.2 - (price * discount )
+let total = price - (price * discount 
+    if (total)
