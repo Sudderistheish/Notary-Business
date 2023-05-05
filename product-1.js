@@ -1,5 +1,4 @@
-
-'use strict'
+"use strict"
 
 let price = 24.99;
  let discount = 10;
@@ -9,6 +8,3 @@ let price = 24.99;
  let total = price - (price * discount)
 
   alert(total)
-
-
-
