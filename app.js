@@ -10,3 +10,6 @@ let stores= [
 
 
 
+let hours = [24];
+
+function getRandom
