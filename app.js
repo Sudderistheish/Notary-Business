@@ -12,63 +12,8 @@ let stores= [
 
 let hours = [24];
 
-let notaryArray = [
-    {
-    store: "seattle",
-    minCust: 23,
-    maxCust: 65,
-    avgNotarysale: 6.3,
-    salesPerhour: [],
-}
-
-{   
-    store: "tokyo",
-    minCust:3,
-    maxCust: 24,
-    avgNotarysale: 1.2,
-    salesPerhour:  [],
-
-},
-
-{
-    store: "dubai",
-    minCust: 11,
-    maxCust: 38, 
-    avgNotarysale: 3.7,
-    salesPerhour: [],
-
-},
-{
-    store: "paris",
-    minCust: 20,
-    maxCust: 38,
-    avgNotarysale: 2.3,
-    salesPerhour: [],
-
-},
-
-{
-    store: "lima",
-    minCust: 2,
-    maxCust: 16,
-    avgNotarysale: 4.6,
-    salesPerhour: [],
-
-}
-
-
-
    
-    
-
-   
-
-
-
-
-
-
-(min, max) => {
+  function RandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random)() * (max - min) + min;;
