@@ -26,15 +26,21 @@ function seattle (min,max,avgNotarysale)
    this.max = max;
    this.avgNotarysale = avgNotarysale;
 
-   seattle.prototype.store
-   = function() {
-    console.log
-    ('This is a 
-    ${this.min}
-    ${this.max} with
-    ${this.avgNotarysale.');
-    
-   }
+      function Store(min,max,avgNotarysale) 
+          this.render = funcion() 
+            let location = `$(this.min) and $(this.max) is $(thisavgNotarysale) of location.`
+            let liElm = document.createElement("li");
+            liElm.textContent = seattle;
+            parent.appendChild(liElm);
+      
+   
+   let seattle = new Store(dubai,tokyo,paris,lima);
+   seattle.render();
+   
+  
 
-   let seattle = new
-   this.store();
+
+
+  
+   
+   
